@@ -1,0 +1,16 @@
+matrix = [2,45,3,21,34]
+
+maks = matrix[0]
+
+for i in matrix:
+        if i > maks:
+             maks = i
+
+minimum = matrix[0]
+for i in matrix:
+    if i < minimum:
+            minimum = i
+    
+sum_of_min_max = minimum + maks
+             
+print(sum_of_min_max)
