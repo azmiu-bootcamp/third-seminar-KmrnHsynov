@@ -1,0 +1,18 @@
+import random
+ 
+hidden = random.randrange(1, 99)
+print(hidden)
+m = 5
+
+guess = int(input("reqem daxil edin: "))
+
+while m > 0:
+        if guess == hidden:
+                print("tebrikler!")
+        elif guess < hidden:
+                print("texmininiz cox asagidir")
+        else:
+                print("texmininiz cox yuksekdir")
+                break
+
+// sehvdi ishlemir
